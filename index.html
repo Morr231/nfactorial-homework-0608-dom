@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <section class="main">
+            <div class="player">
+                <img id="player-img" src="assets/f.png" />
+            </div>
+
+            <audio id="audio">
+                <source src="assets/Future, Drake - Life Is Good.mp3" />
+            </audio>
+
+            <video id="video" muted>
+                <source
+                    src="assets/Future - Life Is Good (Official Music Video) ft. Drake.mp4"
+                />
+            </video>
+            <button id="audio-button">
+                <i class="fa fa-play-circle fa-5x"></i>
+            </button>
+            <button id="video-button">
+                <i class="fa fa-video fa-5x"></i>
+            </button>
+
+            <i class="fas fa-arrow-alt-circle-down"></i>
+        </section>
+
+        <section class="sounds">
+            <div class="description">Press these keys</div>
+
+            <div class="sounds-container">
+                <div class="sound">a</div>
+                <div class="sound">s</div>
+                <div class="sound">d</div>
+                <div class="sound">f</div>
+                <div class="sound">g</div>
+                <audio class="sound-audio">
+                    <source src="sounds/hihat-808.wav" />
+                </audio>
+                <audio class="sound-audio">
+                    <source src="sounds/kick-808.wav" />
+                </audio>
+                <audio class="sound-audio">
+                    <source src="sounds/kick-classic.wav" />
+                </audio>
+                <audio class="sound-audio">
+                    <source src="sounds/snare-808.wav" />
+                </audio>
+                <audio class="sound-audio">
+                    <source src="sounds/snare-vinyl02.wav" />
+                </audio>
+            </div>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
